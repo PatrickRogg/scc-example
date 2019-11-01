@@ -36,7 +36,7 @@ public class BookClientServiceTest {
     // arrange
     Book[] expected = {
             new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
-                    "Prentice Hall")
+                    "Prentice Hall", 500)
     };
 
     // act
@@ -50,8 +50,8 @@ public class BookClientServiceTest {
 
   @Test
   public void shouldReturnStatusCode200AndBookWithIsbnWhenGetBookBy() {
-    Book expected = new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall");
+    Book expected = new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
+            "Prentice Hall", 500);
     ResponseEntity<Book> response = (ResponseEntity<Book>) bookClientService.getBookBy("9780132350884");
 
     assertEquals(200, response.getStatusCode().value());
@@ -68,8 +68,8 @@ public class BookClientServiceTest {
 
   @Test
   public void shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy() {
-    Book[] expected = {new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall")};
+    Book[] expected = {new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
+            "Prentice Hall", 500)};
     ResponseEntity<Book[]> response = (ResponseEntity<Book[]>) bookClientService.searchBooksBy("Clean Code");
 
     assertEquals(200, response.getStatusCode().value());
@@ -78,8 +78,8 @@ public class BookClientServiceTest {
 
   @Test
   public void shouldReturnStatusCode201AndCreateBookWhenCreateBook() {
-    Book expected = new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall");
+    Book expected = new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
+            "Prentice Hall", 500);
     ResponseEntity<Book> response = (ResponseEntity<Book>) bookClientService.createBook(expected);
 
     assertEquals(201, response.getStatusCode().value());
@@ -100,8 +100,8 @@ public class BookClientServiceTest {
 
   @Test
   public void shouldReturnStatusCode200WhenUpdateBook() {
-    Book book = new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall");
+    Book book = new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
+            "Prentice Hall", 500);
     ResponseEntity<?> response = bookClientService.updateBook("123456789", book);
 
     assertEquals(200, response.getStatusCode().value());
@@ -121,8 +121,8 @@ public class BookClientServiceTest {
 
   @Test
   public void shouldReturnStatusCode404AndErrorMessageWhenUpdateBookWithInvalidIsbn() {
-    Book book = new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall");
+    Book book = new Book("9780132350884", "Robert Cecil Martin", "Clean Code",
+            "Prentice Hall", 500);
     ResponseEntity<?> response = bookClientService.updateBook("0", book);
 
     assertEquals(404, response.getStatusCode().value());
