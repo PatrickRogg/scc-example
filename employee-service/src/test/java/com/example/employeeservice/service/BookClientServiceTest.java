@@ -143,5 +143,4 @@ public class BookClientServiceTest {
     assertEquals(404, response.getStatusCode().value());
     assertEquals("Isbn not found", response.getBody());
   }
-
 }

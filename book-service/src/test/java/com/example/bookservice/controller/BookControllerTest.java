@@ -6,6 +6,7 @@ import com.example.bookservice.repository.BookRepository;
 import com.example.bookservice.service.BookService;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -21,7 +22,7 @@ import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = BookServiceApplication.class, webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public abstract class BookControllerTest {
+public class BookControllerTest {
 
   @Mock
   private BookRepository bookRepository;
@@ -48,5 +49,10 @@ public abstract class BookControllerTest {
     when(bookRepository.findByTitle("Clean Code")).thenReturn(books);
     when(bookRepository.save(any())).then(i -> (Book) i.getArgument(0));
     when(bookRepository.findById("123456789")).thenReturn(Optional.of(book));
+  }
+
+  @Test
+  public void test() {
+    
   }
 }
