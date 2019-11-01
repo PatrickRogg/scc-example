@@ -42,7 +42,7 @@ public abstract class BookControllerTest {
     MockitoAnnotations.initMocks(this);
     List<Book> books = new ArrayList<>();
     Book book = new Book("9780132350884", "Robert Cecil Martin",
-            "Clean Code", "Prentice Hall");
+            "Clean Code", "Prentice Hall", 0);
     books.add(book);
 
     when(bookRepository.findAll()).thenReturn(books);

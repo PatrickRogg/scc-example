@@ -13,7 +13,8 @@ Contract.make {
             "isbn" : null,
             "author" : "Robert Cecil Martin",
             "title" : "Clean Code",
-            "publisher" : "Prentice Hall"
+            "publisher" : "Prentice Hall",
+            "pages" : 0
         ])
     }
     response {

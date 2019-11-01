@@ -11,10 +11,11 @@ Contract.make {
         status OK()
         body([
             [
-                 "isbn" : "9780132350884",
-                 "author" : "Robert Cecil Martin",
-                 "title" : "Clean Code",
-                 "publisher" : "Prentice Hall"
+                "isbn" : "9780132350884",
+                "author" : "Robert Cecil Martin",
+                "title" : "Clean Code",
+                "publisher" : "Prentice Hall",
+                "pages" : 0
             ]
         ])
         headers {
