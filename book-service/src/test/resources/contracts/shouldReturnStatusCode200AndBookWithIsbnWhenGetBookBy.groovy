@@ -5,7 +5,7 @@ import org.springframework.cloud.contract.spec.Contract
 Contract.make {
     request {
         method 'GET'
-        url '/books/9780132350884'
+        url '/api/books/9780132350884'
     }
     response {
         status OK()

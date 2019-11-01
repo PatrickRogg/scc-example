@@ -5,7 +5,7 @@ import org.springframework.cloud.contract.spec.Contract
 Contract.make {
     request {
         method 'GET'
-        urlPath('/books/search')  {
+        urlPath('/api/books/search')  {
             queryParameters {
                 parameter 'bookTitle': "Clean Code"
             }

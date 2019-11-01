@@ -5,7 +5,7 @@ import org.springframework.cloud.contract.spec.Contract
 Contract.make {
     request {
         method 'POST'
-        url '/books'
+        url '/api/books'
         headers {
             contentType('application/json')
         }
