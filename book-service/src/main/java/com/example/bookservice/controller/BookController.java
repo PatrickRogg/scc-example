@@ -42,7 +42,7 @@ public class BookController {
   }
 
   @GetMapping("search")
-  public ResponseEntity<?> searchBooksBy(@RequestParam String bookTitle) {
+  public ResponseEntity<?> searchBooksBy(@RequestParam String bookTitle, @RequestParam String bookAuthor) {
     List<Book> filteredBooks = bookService.filterBooksBy(bookTitle);
     return ResponseEntity.status(200).body(filteredBooks);
   }

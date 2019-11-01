@@ -8,6 +8,7 @@ Contract.make {
         urlPath('/books/search')  {
             queryParameters {
                 parameter 'bookTitle': "Clean Code"
+                parameter 'bookAuthor': "Robert Cecil Martin"
             }
         }
     }
