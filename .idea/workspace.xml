@@ -397,7 +397,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BookClientServiceTest" />
-        <item itemvalue="JUnit.BookControllerTestasd" />
         <item itemvalue="JUnit.ContractVerifierTest" />
         <item itemvalue="JUnit.java in book-service" />
         <item itemvalue="JUnit.ContractVerifierTest.validate_shouldReturnStatusCode200WhenDeleteBookBy" />

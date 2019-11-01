@@ -144,17 +144,3 @@ public class BookClientServiceTest {
     assertEquals("Isbn not found", response.getBody());
   }
 }
-
-        ---------------------------------------------------------------------------------------------------------
-        | Closest stub                               | Request
-        ---------------------------------------------------------------------------------------------------------
-                                                     |
-        PUT                                          | PUT
-        /books/123456789                             | /books/123456789
-                                                     |
-        Content-Type [matches] : application/json.*  | Content-Type: application/json;charset=UTF-8
-                                                     |
-        $[?(@.['pages'] == 0)]                       | {"isbn":null,"author":"Robert Cecil << Body does not match
-                                                     | Martin","title":"Clean Code","publisher":"Prentice Hall"}
-                                                     |
-        ----------------------------------------------------------------------------------------------------------
