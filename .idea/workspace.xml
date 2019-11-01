@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0379d069-699f-4152-89da-4e8b6f0186fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/src/test/java/com/example/bookservice/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/java/com/example/bookservice/controller/BookControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksWhenGetAllBooks.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksWhenGetAllBooks.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndBookWithIsbnWhenGetBookBy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndBookWithIsbnWhenGetBookBy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200WhenUpdateBook.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200WhenUpdateBook.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode201AndCreatedBookWhenCreateBook.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode201AndCreatedBookWhenCreateBook.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode400AndErrorMessageWhenCreateBookWithNoIsbn.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode400AndErrorMessageWhenCreateBookWithNoIsbn.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode400AndErrorMessageWhenUpdateBookWithNoIsbn.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode400AndErrorMessageWhenUpdateBookWithNoIsbn.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode404AndErrorMessageWhenUpdateBookWithInvalidIsbn.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode404AndErrorMessageWhenUpdateBookWithInvalidIsbn.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/employee-service/target/" />
     <ignored path="$PROJECT_DIR$/book-service/target/" />
@@ -20,75 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="453">
+              <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="159" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode201AndCreatedBookWhenCreateBook.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/test/java/com/example/bookservice/controller/BookControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/entity/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/target/generated-test-sources/contracts/com/example/bookservice/controller/ContractVerifierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -136,13 +83,13 @@
         <option value="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode404AndErrorMessageWhenDeleteBookByWithInvalidIsbn.groovy" />
         <option value="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200WhenDeleteBookBy.groovy" />
         <option value="$PROJECT_DIR$/book-service/target/generated-test-sources/contracts/com/example/bookservice/controller/ContractVerifierTest.java" />
-        <option value="$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java" />
         <option value="$PROJECT_DIR$/book-service/pom.xml" />
         <option value="$PROJECT_DIR$/book-service/src/test/java/com/example/bookservice/controller/BookControllerTestasd.java" />
         <option value="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode201AndCreatedBookWhenCreateBook.groovy" />
         <option value="$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy" />
         <option value="$PROJECT_DIR$/book-service/src/test/java/com/example/bookservice/controller/BookControllerTest.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/entity/Book.java" />
+        <option value="$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java" />
       </list>
     </option>
   </component>
@@ -451,7 +398,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BookClientServiceTest" />
-        <item itemvalue="JUnit.BookControllerTestasd" />
+        <item itemvalue="JUnit.BookControllerTest" />
         <item itemvalue="JUnit.ContractVerifierTest" />
         <item itemvalue="JUnit.java in book-service" />
         <item itemvalue="JUnit.ContractVerifierTest.validate_shouldReturnStatusCode200WhenDeleteBookBy" />
@@ -472,18 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookControllerTest - 2019.11.01 at 08h 47m 21s.xml">
-      <configuration name="BookControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContractVerifierTest - 2019.11.01 at 08h 47m 47s.xml">
-      <configuration name="ContractVerifierTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContractVerifierTest - 2019.11.01 at 08h 49m 38s.xml">
-      <configuration name="ContractVerifierTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContractVerifierTest - 2019.11.01 at 08h 50m 17s.xml">
-      <configuration name="ContractVerifierTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookClientServiceTest - 2019.11.01 at 08h 50m 31s.xml">
       <configuration name="BookClientServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -502,12 +437,24 @@
     <history-entry file="BookClientServiceTest - 2019.11.01 at 09h 03m 53s.xml">
       <configuration name="BookClientServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContractVerifierTest - 2019.11.01 at 09h 51m 43s.xml">
+      <configuration name="ContractVerifierTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookClientServiceTest - 2019.11.01 at 09h 52m 21s.xml">
+      <configuration name="BookClientServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookControllerTest - 2019.11.01 at 09h 52m 50s.xml">
+      <configuration name="BookControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookClientServiceTest - 2019.11.01 at 09h 55m 09s.xml">
+      <configuration name="BookClientServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3379531" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3379531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,7 +464,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3618635" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10725894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,7 +477,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964438" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.26652452" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.21268657" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -621,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndBookWithIsbnWhenGetBookBy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -651,20 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksWhenGetAllBooks.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200WhenUpdateBook.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -734,34 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/target/generated-test-sources/contracts/com/example/bookservice/controller/ContractVerifierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode201AndCreatedBookWhenCreateBook.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -775,13 +677,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksMatchingTitleWhenSearchBookBy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndAllBooksWhenGetAllBooks.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200AndBookWithIsbnWhenGetBookBy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/test/resources/contracts/shouldReturnStatusCode200WhenUpdateBook.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/example/bookservice/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#1433#1434#0" expanded="true" />
             <element signature="e#1494#1495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/target/generated-test-sources/contracts/com/example/bookservice/controller/ContractVerifierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee-service/src/test/java/com/example/employeeservice/service/BookClientServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="159" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

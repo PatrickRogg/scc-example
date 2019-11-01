@@ -144,3 +144,6 @@ public class BookClientServiceTest {
     assertEquals("Isbn not found", response.getBody());
   }
 }
+
+Expected :isbn: 9780132350884 author: Robert Cecil Martin title:Clean Codepublisher: Prentice Hall
+        Actual   :isbn: 9780132350884 author: null title:Clean Codepublisher: Prentice Hall

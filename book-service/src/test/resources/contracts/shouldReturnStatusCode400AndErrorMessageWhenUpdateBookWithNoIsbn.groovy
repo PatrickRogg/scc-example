@@ -11,7 +11,7 @@ Contract.make {
         }
         body([
             "isbn" : null,
-            "author" : "Robert Cecil Martin",
+            "authors" : "Robert Cecil Martin",
             "title" : "Clean Code",
             "publisher" : "Prentice Hall"
         ])
