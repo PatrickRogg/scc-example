@@ -18,7 +18,6 @@ Contract.make {
                 "isbn" : "9780132350884",
                 "author" : "Robert Cecil Martin",
                 "title" : "Clean Code",
-                "publisher" : "Prentice Hall"
             ]
         ])
         headers {
