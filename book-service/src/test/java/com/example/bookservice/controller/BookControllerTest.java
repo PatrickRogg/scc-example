@@ -41,7 +41,7 @@ public abstract class BookControllerTest {
   private void setMocks() {
     MockitoAnnotations.initMocks(this);
     List<Book> books = new ArrayList<>();
-    Book book = new Book("9780132350884", "Robert Cecil Martin",
+    Book book = new Book("9780132350884", new String[]{"Robert Cecil Martin"},
             "Clean Code", "Prentice Hall");
     books.add(book);
 
